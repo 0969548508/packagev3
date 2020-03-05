@@ -1,0 +1,24 @@
+{
+    "name": "nnbao/press",
+    "description": "this is my second package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nnbao",
+            "email": "nnbao200196@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "nnbao\\Press\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+          "providers": [
+            "nnbao\\Press\\PressBaseServiceProvider"
+          ]
+        }
+    }
+}
